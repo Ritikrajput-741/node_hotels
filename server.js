@@ -16,7 +16,7 @@ app.use("/person", personRouter);
 app.use("/menu", menuItemRouter);
 
 app.get("/", (req, res) => {
-  res.send("This is our home page it is say hello to world");
+  res.send("This is our home page");
 });
 
 
