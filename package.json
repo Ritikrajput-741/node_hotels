@@ -1,0 +1,20 @@
+{
+  "name": "node-first-server",
+  "version": "1.0.0",
+  "description": "here is ritik node.js start",
+  "license": "ISC",
+  "author": "ritik rajput",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.1",
+    "express": "^5.2.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^9.0.2",
+    "nodemon": "^3.1.11"
+  }
+}
